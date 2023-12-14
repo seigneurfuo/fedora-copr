@@ -1,7 +1,7 @@
 # FIXME: Before package was based on openSUSE package. Now it uses Debian package. Also there is git repo
 # https://github.com/ganwell/dmz-cursors with high-resolution sizes. May be this is the best option?
 
-%undefine _disable_source_fetch
+%_disable_source_fetch 0
 
 Name:           dmz-cursor-themes
 Version:        0.4.5
