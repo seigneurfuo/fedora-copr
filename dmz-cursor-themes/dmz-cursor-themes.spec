@@ -12,6 +12,8 @@ Patch0:         dmz-cursor-themes-symbolic-links.patch
 BuildArch:      noarch
 BuildRequires:  xcursorgen
 
+%_disable_source_fetch 0
+
 %description
 Scalable, style-neutral cursor themes based on the Industrial cursors designed
 by Jakub Steiner for the Ximian GNOME Desktop.
