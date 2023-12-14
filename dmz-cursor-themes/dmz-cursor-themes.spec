@@ -7,6 +7,8 @@ Release:        9%{?dist}
 Summary:        Style neutral cursors themes
 License:        CC-BY-SA
 URL:            https://packages.debian.org/sid/gnome/dmz-cursor-theme
+
+%define _disable_source_fetch 0
 Source0:        http://ftp.debian.org/debian/pool/main/d/dmz-cursor-theme/dmz-cursor-theme_%{version}.tar.xz
 Patch0:         dmz-cursor-themes-symbolic-links.patch
 BuildArch:      noarch
