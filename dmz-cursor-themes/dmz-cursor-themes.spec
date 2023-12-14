@@ -1,6 +1,8 @@
 # FIXME: Before package was based on openSUSE package. Now it uses Debian package. Also there is git repo
 # https://github.com/ganwell/dmz-cursors with high-resolution sizes. May be this is the best option?
 
+%undefine _disable_source_fetch
+
 Name:           dmz-cursor-themes
 Version:        0.4.5
 Release:        9%{?dist}
@@ -11,8 +13,6 @@ Source0:        http://ftp.debian.org/debian/pool/main/d/dmz-cursor-theme/dmz-cu
 Patch0:         dmz-cursor-themes-symbolic-links.patch
 BuildArch:      noarch
 BuildRequires:  xcursorgen
-
-%_disable_source_fetch 0
 
 %description
 Scalable, style-neutral cursor themes based on the Industrial cursors designed
